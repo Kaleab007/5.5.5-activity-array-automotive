@@ -18,22 +18,7 @@ this.scheduleService = false;
     }
 
 }
-//seating chart\\
-loadPassenger(num) 
-    if (this.passenger <this.maxPassengers) {
-        if((num + this.passenger) < this.maxPassengers) 
-           this.passenger = num;
-            return `can fit ${this.passenger} more! Extra room = ${Extraroom = true};
-
-    }
-      else {
-            
-            Extraroom == false;
-            return 'can Not fit ${this.passenger} more! Extra room = ${Extraroom = false};
-        }
-
-
-scheduleCarService(mileage) {
+scheduleCarService(mileage) 
     if (mileage > 25000) {
         return 'current mileage is ${mileage}. Maintenance required = ${this.scheduleService = true}';
     }
@@ -47,4 +32,23 @@ console.log('${Rav4.model} ${Rav4.make} ${Rav4.loadPassenger (5)}');
 let mdx = new Car ("Acura", "mdx", "2017", "grey", "89141")
 console.log('${mdx.model} ${mdx.make} ${mdx.loadPassenger (7)}');
 
-console.log ('Can ${Rav4.model} start?  ${Rav4.start()}
+console.log ('Can ${Rav4.model} start?  ${Rav4.start()}'}
+    
+start () {
+    if (this.fuel > 0)
+}
+
+//seating chart\\
+loadPassenger(num) 
+    if (this.passenger <this.maxPassengers) {
+        if((num + this.passenger) < this.maxPassengers) 
+           this.passenger = num;
+            return `can fit ${this.passenger} more! Extra room = ${Extraroom = true};
+
+    }
+      else {
+            
+            Extraroom == false;
+            return 'can Not fit ${this.passenger} more! Extra room = ${Extraroom = false};
+        }
+    }
